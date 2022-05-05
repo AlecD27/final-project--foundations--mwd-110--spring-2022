@@ -3,13 +3,72 @@
 
 body {
   font-family: $font-stack--reading;
+  background: #dedede;
+  margin: auto;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
+h1 {
   font-family: $font-stack--headings;
+}
+
+header {
+  padding-top: 5px;
+  padding-left: 10px;
+  padding-bottom: 10px;
+  background: #D95030;
+  color: #dedede;
+  text-align: center;
+}
+
+nav, footer{
+  font-family: $font-stack--reading;
+  padding-top: 15px;
+  padding-bottom: 20px;
+  text-align: center;
+  font-weight:bold;
+}
+
+main {
+  font-family: $font-stack--reading;
+  color: #D95030;
+  text-align: center;
+}
+
+p {
+  padding-left: 170px;
+  padding-right: 170px;
+  padding-bottom: 5px;
+  padding-top: 5px;
+  color: #3b0000;
+  font-size: 16px;
+}
+h1 {
+  font-weight: bold;
+  font-size: 60px;
+}
+h2 {
+  padding-top: 15px;
+  font-weight: bold;
+  color: #D95030;
+}
+li {
+  color: #3b0000;
+  font-size: 16px;
+}
+a {
+  color: #3b0000;
+}
+img {
+  width: 350px;
+  display: block;
+  margin: auto;
+  box-shadow: 0 0 15px #000000;
+}
+/*Make a variable: When the mouse hovers over the image, the image grows slightly*/
+.logo {
+  width: 100px;
+}
+.front {
+  padding: 50px;
+  font-size: 50px;
 }
