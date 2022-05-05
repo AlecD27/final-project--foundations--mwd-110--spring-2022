@@ -2,13 +2,8 @@
 @use 'reset';
 
 body {
-  font-family: $font-stack--reading;
   background: #dedede;
   margin: auto;
-}
-
-h1 {
-  font-family: $font-stack--headings;
 }
 
 header {
@@ -21,7 +16,7 @@ header {
 }
 
 nav, footer{
-  font-family: $font-stack--reading;
+  font-family: 'IBM Plex Sans', sans-serif;
   padding-top: 15px;
   padding-bottom: 20px;
   text-align: center;
@@ -29,7 +24,7 @@ nav, footer{
 }
 
 main {
-  font-family: $font-stack--reading;
+  font-family: 'IBM Plex Sans', sans-serif;
   color: #D95030;
   text-align: center;
 }
@@ -43,6 +38,7 @@ p {
   font-size: 16px;
 }
 h1 {
+  font-family: 'Roboto', sans-serif;
   font-weight: bold;
   font-size: 60px;
 }
